@@ -1,4 +1,4 @@
-# Green-training https://zenodo.org/badge/269275353.svg
+# Green-training
 Green-training is a framework integrated with TensorFlow for operation scheduling and energy efficiency optimization on the server architecture with a combination of GPUs and FPGAs without losing performance. It is developed based on tensorflow by adding the FPGA extension to support the schduling and running the operations on both FPGA and GPU.
 
 ## Step #1: set up the following hardware and software environments
