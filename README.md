@@ -1,12 +1,12 @@
 # Green-training
-Green-training is a framework integrated with TensorFlow for operation scheduling and energy efficiency optimization on the server architecture with a combination of GPU and FPGA without losing performance. It is developed based on tensorflow by adding the FPGA extension to support the schduling and running the operations on both FPGA and GPU.
+Green-training is a framework integrated with TensorFlow for operation scheduling and energy efficiency optimization on the server architecture with a combination of GPUs and FPGAs without losing performance. It is developed based on tensorflow by adding the FPGA extension to support the schduling and running the operations on both FPGA and GPU.
 
 ## Step #1: set up the following hardware and software environments
 ### Hardware
-- Nvidia Tesla K80 GPU
+- Nvidia Tesla V100 GPU
 - Intel Stratix 10 FPGA
 - A server with two eight-core 2.4 GHz Intel Xeon E5-2630 CPUs
-- One K80 GPU and one Stratix 10 FPGA are attached to the server by PCIe 3.0
+- V100 GPUs and Stratix 10 FPGAs are attached to the server by PCIe 3.0
 
 ### Software
 - Python 3.5.2, gcc-4.9, g++-4.9, pip3
